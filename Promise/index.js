@@ -7,7 +7,7 @@ const myPromise = new Promise((res, rej)=>{
 });
 
 //Using Promises**************
-/*myPromise
+myPromise
 .then((value)=>{
     console.log(value)
 })
@@ -84,7 +84,7 @@ fs.readFile('path/to/file.txt', 'utf8')
 .then(data=> console.log(data))
 .catch(error=>console.error('Read file error:', error));
 
-*/
+
 //Promises vs. Async/Await****************
 
 async function fetchData(){
